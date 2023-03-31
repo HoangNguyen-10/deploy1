@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import Alert from './Alert'
+import Axios from './Axios'
+import Couter1 from './Couter1'
+import FetchAPI from './FetchAPI'
+import Form from './useIncrement'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <FetchAPI /> */}
+      {/* <Axios /> */}
+      {/* <Alert text="Cảnh báo! Tài nguyên bạn vừa truy cập không tồn tại.ss" /> */}
+      {/* <Form /> */}
+      <Couter1 />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

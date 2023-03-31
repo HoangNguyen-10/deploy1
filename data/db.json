@@ -1,24 +1,10 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Tommy"
-        },
-        {
-            "id": 2,
-            "name": "Jennie"
-        },
-        {
-            "id": 3,
-            "name": "Harry"
-        },
-        {
-            "id": 4,
-            "name": "Beck"
-        },
-        {
-            "id": 5,
-            "name": "Ben"
-        }
-    ]
+  "blogs": [
+    {
+      "title": "Opening Party",
+      "body": "its the long essay",
+      "author": "YOSHI",
+      "id": 2
+    }
+  ]
 }
